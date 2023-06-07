@@ -15,5 +15,7 @@ jobs:
           node-version: 16
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1.2.0
+      - name: install dependencies
+        run: npm install 
       - run: npm run test
     
