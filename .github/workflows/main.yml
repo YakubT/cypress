@@ -13,5 +13,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1.2.0
       - run: npm run test
     
