@@ -1,7 +1,7 @@
 {
     "scripts": {
         "startServer": "json-server --watch db.json",
-        "test": "npx cypress run --spec cypress/integration/examples/test.spec.js --browser chrome --headless"
+        "test": "npx cypress run --spec cypress/integration/examples/test.spec.js --browser chrome"
     },
     "devDependencies": {
         "@cypress/xpath": "2.0.3",
