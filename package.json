@@ -4,8 +4,8 @@
         "test": "npx cypress run --spec cypress/integration/examples/test.spec.js --browser chrome --headless"
     },
     "devDependencies": {
-        "@cypress/xpath": "^2.0.3",
-        "cypress": "^3.1.15",
+        "@cypress/xpath": "2.0.3",
+        "cypress": "3.1.15",
         "cypress-file-upload": "^2.0.0",
         "json-server": "^0.17.3"
     }
