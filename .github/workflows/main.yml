@@ -21,6 +21,6 @@ jobs:
       - name: NewMan action
         uses: matt-ball/newman-action@v1.0.4
         with:
-          collection: postman_collection.json
+          collection: testing2.postman_collection.json
         
     
