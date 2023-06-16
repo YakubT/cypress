@@ -18,4 +18,11 @@ jobs:
       - name: install dependencies
         run: npm install 
       - run: npm run test
+      - name: install newman
+        uses: matt-ball/newman-action@v1.0.4
+      - name: run api testing
+        run: |
+             npm run startServer
+             newman run testing.postman_collection.json
+        
     
