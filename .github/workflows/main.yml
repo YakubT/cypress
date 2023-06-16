@@ -18,8 +18,6 @@ jobs:
       - name: install dependencies
         run: npm install 
       - run: npm run test
-      - name: start Sever
-        run: npm run startServer
       - name: NewMan action
         uses: matt-ball/newman-action@v1.0.4
         with:
