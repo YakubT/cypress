@@ -20,7 +20,7 @@ jobs:
       - run: npm run test
       - name: start Sever
         run: npm run startServer
-      - name: install newman
+      - name: NewMan action
         uses: matt-ball/newman-action@v1.0.4
         with:
           collection: postman_collection.json
