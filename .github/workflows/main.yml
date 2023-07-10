@@ -20,7 +20,7 @@ jobs:
       - name: run fake api
         run: npm run startServer &
       - name: test api
-        run: npm run testApi &
+        run: npm run testApi 
       - name: NewMan action
         uses: matt-ball/newman-action@v1.0.4
         with:
