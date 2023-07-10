@@ -16,8 +16,11 @@ jobs:
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1.2.0
       - name: install dependencies
-        run: npm install 
-      - run: npm run test
+        run: npm install
+      - name: run fake api
+        run: npm run start
+      - name: test api
+        run: npm run testApi
       - name: NewMan action
         uses: matt-ball/newman-action@v1.0.4
         with:
